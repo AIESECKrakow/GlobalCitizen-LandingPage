@@ -26,11 +26,7 @@ Pracuj z wolontariuszami z całego świata, poznawaj nowe kultury i zdobądź ce
 			<script type="text/javascript">
 				$(document).ready(function() {
 
-				
-
-				mixpanel.track("Rejestracja w systemie (manual code)");
-
-			
+						
 				<!-- ALL LOCAL LINKS USING LOCALSCROLL, SLIDE DURATION: 3000ms - it should be always on the end of script -->
 				 $.localScroll({ duration: 3000 });
 				});
