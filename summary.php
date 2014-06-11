@@ -83,14 +83,14 @@ $surname = $_POST["surname"];
 $email2 = $_POST["email"];
 $email = str_replace("@", "%40", $email);
 $password = $_POST["password"];
-
+$lc = $_POST["lc"];   
 
 
 
    $wpcpost2 = mysql_query("SELECT * FROM `mp_landing` WHERE mail='$email'")
 or die('Strona nie istnieje');
 if(mysql_num_rows($wpcpost2) > 0) { } else {
-mysql_query("INSERT INTO mp_landing (name, surname, mail, date) VALUES ('$name', '$surname', '$email2' , '$date')");
+mysql_query("INSERT INTO mp_landing (name, surname, mail, date, lc) VALUES ('$name', '$surname', '$email2' , '$date', '$lc')");
 
 }
 

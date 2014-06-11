@@ -4,6 +4,8 @@ Global Citizen to międzynarodowy program wolontariatów zagranicznych dla stude
 
 Jest to projekt krakowskiego landing page dla programu Global Citizen.
 
+Adres: http://aiesec.pl/globalcitizen/
+
 Plan projektu:
 - stworzyć dobrze konwertującą stronę
 - aktualizować ją na bieżąco
