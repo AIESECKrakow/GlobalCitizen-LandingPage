@@ -11,28 +11,8 @@ Pracuj z wolontariuszami z całego świata, poznawaj nowe kultury i zdobądź ce
 		<link rel="stylesheet" href="style.css" type="text/css" />
 
 		<link rel="stylesheet" media="screen and (min-height: 900px) and (max-width: 1280px)" href="style1280.css" />
+		
 
-			<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
-
-
-				<!-- LOCALSCROLL - NICE SCROLLING -->
-					<script type='text/javascript' src="jquery/scrollto.js"></script>
-					<script type='text/javascript' src="jquery/localscroll.js"></script>
-
-
-					<!-- DOM - Document Ready -->
-			<script type="text/javascript">
-				$(document).ready(function() {
-
-						
-				<!-- ALL LOCAL LINKS USING LOCALSCROLL, SLIDE DURATION: 3000ms - it should be always on the end of script -->
-				 $.localScroll({ duration: 3000 });
-				});
-
-			</script>
-				
 	</head>
 	<body>
 	<!-- Google Tag Manager -->
